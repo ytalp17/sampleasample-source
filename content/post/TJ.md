@@ -22,7 +22,9 @@ The K-means algorithm requires a pre-defined number of clusters, k, where observ
 Silhuette score of the final configuration of the data is calculated by averaging  silhoutte value of all the observations. A silhuette value of an observation can be taught as its degree of similarity to its own cluster compared to other clusters. The score ranges from -1 to +1, where a high value indicates a more appropriate clustering configuration.  
 
 
-![Alt text](img/sit.png){width=40%}
+![Alt text](/img/sit.png){width=40%}
+<img src = "/img/sit.png">
+
 
 
 
@@ -33,6 +35,8 @@ The following map shows all 539 TJ's in yellow, while showing the  19 guessed wa
 
 
 ![Alt text](img/tj.png)
+<img src = "/img/tj.png">
+
 
 
 
