@@ -22,9 +22,9 @@ The K-means algorithm requires a pre-defined number of clusters, k, where observ
 Silhuette score of the final configuration of the data is calculated by averaging  silhoutte value of all the observations. A silhuette value of an observation can be taught as its degree of similarity to its own cluster compared to other clusters. The score ranges from -1 to +1, where a high value indicates a more appropriate clustering configuration.  
 
 
-\ <center>
-![Alt text](/img/Sit.png){width=40%}
-</center>\
+<center>
+![Alt text](/img/sit.png){width=40%}
+</center>
 
 
 
@@ -34,9 +34,9 @@ Silhuette scores of different k values ranging from 13 to 20 is calculated, and 
 The following map shows all 539 TJ's in yellow, while showing the  19 guessed warehouses in red. Also, the 12 'known' warehouses which are listed above are depicted in green. It can be seen that the actual warehouses are not too far from guessed warehouses. It is very fascinating to have not that bad guesses with such a basic algortihm.\
 
 
-\ <center>
-![Alt text](/img/TJ.png)
-</center>\
+<center>
+![Alt text](/img/tj.png)
+</center>
 
 
 
