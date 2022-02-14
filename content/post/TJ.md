@@ -23,7 +23,7 @@ Silhuette score of the final configuration of the data is calculated by averagin
 
 
 \ <center>
-![Alt text](img/Sit.png){width=40%}
+![Alt text](/img/Sit.png){width=40%}
 </center>\
 
 
@@ -35,7 +35,7 @@ The following map shows all 539 TJ's in yellow, while showing the  19 guessed wa
 
 
 \ <center>
-![Alt text](img/TJ.png)
+![Alt text](/img/TJ.png)
 </center>\
 
 
