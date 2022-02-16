@@ -1,4 +1,4 @@
-baseURL = "https://ytalp17.github.io/sampleasample/"
+baseURL = "https://ytalp17.github.io/sampleasample"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
@@ -11,7 +11,7 @@ paginate = 5
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
-  showReadingTime = false
+  showReadingTime = true
 
 [languages]
   [languages.en]
@@ -30,12 +30,12 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "Sample A Sample"
       logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+    # alt = "Sample A Sample"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
