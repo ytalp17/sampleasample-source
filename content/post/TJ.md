@@ -2,9 +2,9 @@
 title = "On the Trail of Trader Joe's Warehouses"
 date = 2022-02-14T10:19:48+08:00
 author = "Yigitalp Berber"
-keywords= "Clustering", "K-means","GeoDataFrame","Trader Joe's,"Silhouette"]
-description= "Finding the location of TJ's warehouses using its stores by the help go K-means clustering"
-tags = ["Clustering", "K-means","GeoDataFrame","Trader Joe's,"Silhouette"]
+keywords= ["Clustering", "K-means","GeoDataFrame","Trader Joe's","Silhouette"]
+description= "Finding the location of Trader Joe's, a well-known grocery retailer in the US, warehouses by utilizing the location of each TJ stores."
+tags = ["Clustering", "K-means", "GeoDataFrame", "Trader Joe's", "Silhouette"]
 cover = "img/traderjoes.jpeg"
 +++
 
