@@ -4,6 +4,7 @@ theme = "hello-friend"
 paginate = 5
 
 [params]
+  disqusShortname = "https-ytalp17-github-io-sampleasample"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "post"
   # "light" or "dark"
