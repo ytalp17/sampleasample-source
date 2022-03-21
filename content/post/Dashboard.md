@@ -3,31 +3,29 @@ title = "A Comparison Tool For Yahoo! Fantasy Basketball"
 date = 2022-02-14T10:19:48+08:00
 author = "Yigitalp Berber"
 keywords= ["Dash", "Z-scores","Crontab","Git","Yahoo","NBA","Fantasy Basketball"]
-description= "A Comparison Tool For Yahoo! Fantasy Basketball."
+description= " I built a comparison tool for Yahoo! Fantasy Basketball on Dash Plotly. You can built your roster either by selecting your player from the dropdown menu or by simply copy your whole roster form the team roster tab of your Yahoo Fantasy web application and past it into the text input section, it will automatically transfer your players to the app!"
 tags = ["Dash", "Z-scores","Crontab","Git","Yahoo","NBA","Fantasy Basketball"]
 cover = "img/nba.jpeg"
 +++
 
-I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? However, I truly fell in love with the game from the first day! My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it!
-
-{{< image src="../dash.png" alt="Yahoo Player Comparison Tool" position="center" style="border-radius: 2 px ;" >}}
+I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? However, I truly fell in love with the game from the first day! My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it! (You may want to launch it on a chrome browser, on PC to see the intended layout!)
 
 
-I didn't want to make something without any utility. Thus, I would solve something that I encounter in the game frequently: the difficulty of comparing multiple players, or even rosters, with each other. 
+I didn't want to make something without any utility. Thus, I would solve something that I encounter in the game very frequently: the difficulty of comparing multiple players, or even rosters, with each other. 
 
 In this regard, I designed the dashboard in a way that while the tools for visual and numerical comparison are positioned in the center, the elements for creating your roster are placed on the side columns. 
+
+{{< image src="../dash.png" alt="Yahoo Player Comparison Tool" position="center" style="border-radius: 2 px ;" >}}
 
 One can build his roster either by selecting his players from the dropdown menu or by simply copying his players from the team roster tab of your Yahoo Fantasy web application and pasting it into the text input section in one go.
 
 The polar graph on the center compares visually the nine default categories/stats which are widely used in a category-based league, while two stat sheets for each corresponding roster are there for the ones who are after for a more precise, numerical comparison.
 
-In addition to 9 per game statistics, stat sheets contain minutes per game (MPG) and the total game-played (GP) stats for the players of their selected season. Moreover, $Z$-scores of the corresponding statistics can also be found by scrolling the sheet to the right. 
+In addition to 9 per game statistics, stat sheets contain minutes per game (MPG) and the total game-played (GP) stats for the players of their selected season. Besides, Z-scores of the corresponding statistics can also be found by scrolling the sheet to the right. 
 
-$Z$-scores are calculated by utilizing the conceptual population that is created by including statistics of the top 120 players of the previous NBA season (2020-2021).
+Z-scores are calculated by utilizing the conceptual population that is created by including statistics of the top 120 players of the previous NBA season (2020-2021). All the Z-scores, except of FG% and FT%, are calculated by following the classical formula of $(X_{ij}-u_j)/sd_j$ where u and sd are the population mean and the population standard deviation for the corresponding statistics, respectively. FG% and FT% stats are weighted by corresponding per game shooting attempts before their "*weighted*" Z-scores are calculated. Z-scores are also color-coded according to their sigma levels (standard deviations). Given 68% of the players lay between -/+1 standard deviation while 98% of them lay between -/+2 standard deviation, having stat on -/+3 standard deviation makes a player roughly %1 and %99 percentile, respectively!
 
-$Z$-scores of the statistics, except the $Z$-scores of  FG% and FT%, are calculated by following the classical formula of $(X_{ij}-u_j)/sd_j$ where u and sd are the population mean and the population standard deviation for the corresponding statistics, respectively. FG% and FT% stats are weighted by corresponding per game shooting attempts before their "*weighted*" $Z$-scores are calculated. $Z$-scores are also color-coded according to their sigma levels (standard deviations). Given 68% of the players lay between -/+1 standard deviation while 98% of them lay between -/+2 standard deviation, having stat on -/+3 standard deviation makes a player roughly %1 and %99 percentile, respectively!
-
-Moreover, it is a good sign for a player to spread his performance throughout a season. The total number of games played per season is not only a useful metric to characterize the injury proneness of a player but also his performance consistency. Hence, bar charts that show the total game played for the selected players in their previous season (2020-2021) are also put on the side columns.
+It is know that it is a good sign for a player to spread his performance throughout a season. The total number of games played per season is not only a useful metric to characterize the injury proneness of a player but also his performance consistency. Hence, bar charts that show the total game played for the selected players in their previous season (2020-2021) are also put on the side columns.
 
 ## Technical Part
 
