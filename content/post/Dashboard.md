@@ -8,7 +8,7 @@ tags = ["Dash", "Z-scores","Crontab","Git","Yahoo","NBA","Fantasy Basketball"]
 cover = "img/nba.jpeg"
 +++
 
-I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? But, I truly fell in love with the game from the first day. My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it!
+I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? However, I truly fell in love with the game from the first day! My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it!
 
 {{< image src="../dash.png" alt="Yahoo Player Comparison Tool" position="center" style="border-radius: 2 px ;" >}}
 
