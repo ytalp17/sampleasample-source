@@ -23,9 +23,11 @@ The polar graph on the center compares visually the nine default categories/stat
 
 In addition to 9 per game statistics, stat sheets contain minutes per game (MPG) and the total game-played (GP) stats for the players of their selected season. Besides, Z-scores of the corresponding statistics can also be found by scrolling the sheet to the right. 
 
-Z-scores are calculated by utilizing the conceptual population that is created by including statistics of the top 120 players of the previous NBA season (2020-2021). All the Z-scores, except of FG% and FT%, are calculated by following the classical formula of $(X_{ij}-u_j)/sd_j$ where u and sd are the population mean and the population standard deviation for the corresponding statistics, respectively. FG% and FT% stats are weighted by corresponding per game shooting attempts before their "*weighted*" Z-scores are calculated. Z-scores are also color-coded according to their sigma levels (standard deviations). Given 68% of the players lay between -/+1 standard deviation while 98% of them lay between -/+2 standard deviation, having stat on -/+3 standard deviation makes a player roughly %1 and %99 percentile, respectively!
+Z-scores are calculated by utilizing the conceptual population that is created by including statistics of the top 120 players of the previous NBA season (2020-2021). All the Z-scores, except of FG% and FT%, are calculated by following the classical formula of $(X_{ij}-u_j)/sd_j$ where u and sd are the population mean and the population standard deviation for the corresponding statistics, respectively. 
 
-It is know that it is a good sign for a player to spread his performance throughout a season. The total number of games played per season is not only a useful metric to characterize the injury proneness of a player but also his performance consistency. Hence, bar charts that show the total game played for the selected players in their previous season (2020-2021) are also put on the side columns.
+FG% and FT% stats are weighted by corresponding per game shooting attempts before their "*weighted*" Z-scores are calculated. Z-scores are also color-coded according to their sigma levels (standard deviations). Given 68% of the players lay between -/+1 standard deviation while 98% of them lay between -/+2 standard deviation, having stat on -/+3 standard deviation makes a player roughly %99 and %1 percentile, respectively!
+
+It is know that it is a good sign for a player to spread his performance throughout a season. The total number of games played per season is not only a useful metric to characterize the injury proneness of a player but also consistency of his performance. Hence, bar charts that show the total game played for the selected players in their previous season (2020-2021) are also put on the side columns.
 
 ## Technical Part
 
@@ -37,7 +39,9 @@ Another issue I needed to address is to update the data periodically. An NBA gam
 
 You can reach out to the source code of the dashboard via [project's GitHub repo](https://github.com/ytalp17/dashapp). Moreover, you can always e-mail me without any hesitation in case you want to build something out of this app; I would be more than happy to help!
 
-Beyond that, nobody would say no to a small treat; if you want to get me a cup of coffee, you can send AVAX, ETH, FTM, or BNB directly to my wallet:  **0x4866C55E04F80d28FfAD35a2a5CAA264085c2A94**
+Beyond that, nobody would say no to a small treat; if you want to get me a cup of coffee, you can send AVAX, ETH, FTM, or BNB directly to my wallet:  
+
+**0x4866C55E04F80d28FfAD35a2a5CAA264085c2A94**
 
 
 
