@@ -8,7 +8,7 @@ tags = ["Dash", "Z-scores","Crontab","Git","Yahoo","NBA","Fantasy Basketball"]
 cover = "img/nba.jpeg"
 +++
 
-I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? However, I truly fell in love with the game from the first day! My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it! (You may want to launch it on a chrome browser, on PC to see the intended layout!)
+I was invited to play **Yahoo! Fantasy Basketball** by a group of friends in late October, just before the NBA season we are following started. I  had heard about fantasy games for various sports in the past but didn't try any of them for any reason. I was even a little bit prejudiced towards it: Why would anyone want to spend time on a static game which is minimally interactive? However, I truly fell in love with the game from the first day! My affinity for the game has grown so much over time that it led me to make a [dashboard](https://yahoocompare.herokuapp.com/) about it! (You may want to launch it on PC, preferably with a Chrome browser to see the intended layout!)
 
 
 I didn't want to make something without any utility. Thus, I would solve something that I encounter in the game very frequently: the difficulty of comparing multiple players, or even rosters, with each other. 
