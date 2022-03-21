@@ -26,7 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           repository: ytalp17/sampleasample-source
-          personal_token: ${{ secrets.BLOG_SECRET }}
+          personal_token: ${{ secrets.BERBER_SECRET }}
           external_repository: ytalp17/sampleasample
           publish_branch: master
           publish_dir: ./public
